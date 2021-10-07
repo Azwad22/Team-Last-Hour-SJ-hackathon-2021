@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Allcourses from "../Allcourses/Allcourses";
+import { Button } from "react-bootstrap";
 
 const Services = () => {
   const [allcourse, setAllcourse] = useState([]);
@@ -19,7 +20,7 @@ const Services = () => {
       <div className=" justify-center row m-3">
         {/* passing props to Allcourse component */}
 
-        {allcourse.slice(0, 4).map((mustafiz) => (
+        {allcourse.slice(0, 3).map((mustafiz) => (
           <Allcourses
             key={mustafiz.index}
             mustafiz={mustafiz}
@@ -27,8 +28,8 @@ const Services = () => {
           ></Allcourses>
         ))}
       </div>
-      <button className="bg-warning" >View All Services</button>
-    </div>
+      <Button variant="warning">VIew all Course</Button>{' '}
+    </div >
   );
 };
 
