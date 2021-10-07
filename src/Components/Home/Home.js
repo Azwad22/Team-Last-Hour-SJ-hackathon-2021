@@ -6,7 +6,7 @@ import About from "../About/About";
 import Footer from "../Footer/Footer";
 import Services from "../Services/Services";
 import logo from "../../images/logo.png";
-import qlogo from "../../images/qlogo.png";
+import Instructor from "../Instructor/Instructor";
 
 const Home = () => {
   return (
@@ -55,6 +55,18 @@ const Home = () => {
               >
                 {" "}
                 Courses{" "}
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link
+                to="instructor"
+                smooth={true}
+                duration={100}
+                className="navlink"
+                style={{ cursor: "pointer" }}
+              >
+                {" "}
+                Instructors{" "}
               </Link>
             </Nav.Link>
             <Nav.Link>
@@ -139,6 +151,8 @@ const Home = () => {
 
       <div>
         <Services />
+        <Instructor />
+
         <About />
 
         <Footer />
