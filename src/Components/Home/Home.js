@@ -95,10 +95,14 @@ const Home = () => {
         </Navbar.Collapse>
       </Navbar>
 
-      <div class="abc"></div>
+      <div class="abc">
+      <p className="" float="left">
+          First Learn then remove the 'L'- Mohit Manke
+        </p>
+      </div>
 
       {/* <div class="">
-        <a href="#">Forgot Password?</a>
+
         <button
           class="
                 bg-blue-500

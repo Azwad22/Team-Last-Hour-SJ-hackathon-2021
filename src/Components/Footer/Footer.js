@@ -47,7 +47,7 @@ const Footer = () => {
                   <br />
                   <FiPhone size="1.2em" /> 01857528424
                   <br />
-                  <HiOutlineMail size="1.3em" /> ambulance@gmail.com
+                  <HiOutlineMail size="1.3em" /> eduland@gmail.com
                 </p>
               </MDBCol>
 

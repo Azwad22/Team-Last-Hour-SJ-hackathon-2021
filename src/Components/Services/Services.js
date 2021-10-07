@@ -14,9 +14,9 @@ const Services = () => {
 
   return (
     <div id="services">
-      <h1>Our Services</h1>
+      <h1 style={{ padding: "40px" }}>Our Services</h1>
 
-      <div className="row m-3">
+      <div className=" justify-center row m-3">
         {/* passing props to Allcourse component */}
 
         {allcourse.map((mustafiz) => (
