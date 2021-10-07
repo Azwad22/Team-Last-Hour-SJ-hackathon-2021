@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Allcourses from "../Allcourses/Allcourses";
+import { Button } from "react-bootstrap";
 
 const Services = () => {
   const [allcourse, setAllcourse] = useState([]);
@@ -10,7 +11,7 @@ const Services = () => {
       .then((data) => setAllcourse(data));
   }, []);
 
-  const handleAddToCart = (product) => {};
+  const handleAddToCart = (product) => { };
 
   return (
     <div id="courses">
@@ -19,7 +20,7 @@ const Services = () => {
       <div className=" justify-center row m-3">
         {/* passing props to Allcourse component */}
 
-        {allcourse.map((mustafiz) => (
+        {allcourse.slice(0, 3).map((mustafiz) => (
           <Allcourses
             key={mustafiz.index}
             mustafiz={mustafiz}
@@ -27,7 +28,8 @@ const Services = () => {
           ></Allcourses>
         ))}
       </div>
-    </div>
+      <Button variant="warning">VIew all Course</Button>{' '}
+    </div >
   );
 };
 
