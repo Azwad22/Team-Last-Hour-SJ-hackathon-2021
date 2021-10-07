@@ -45,6 +45,7 @@ const Home = () => {
                 Home
               </Link>
             </Nav.Link>
+            
             <Nav.Link>
               <Link
                 to="services"
@@ -57,6 +58,7 @@ const Home = () => {
                 Courses{" "}
               </Link>
             </Nav.Link>
+
             <Nav.Link>
               <Link
                 to="instructor"
