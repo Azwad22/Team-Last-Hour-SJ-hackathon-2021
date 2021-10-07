@@ -6,6 +6,7 @@ import About from "../About/About";
 import Footer from "../Footer/Footer";
 import Services from "../Services/Services";
 import logo from "../../images/logo.png";
+import qlogo from "../../images/qlogo.png";
 
 const Home = () => {
   return (
@@ -96,29 +97,45 @@ const Home = () => {
       </Navbar>
 
       <div class="abc">
-      <p className="" float="left">
-          First Learn then remove the 'L'- Mohit Manke
-        </p>
+        <div>
+          <p
+            style={{
+              color: "deeppink",
+              fontFamily: "cursive,Charcoal,sans-serif",
+              textAlign: "justify",
+              paddingLeft: "15px",
+            }}
+          >
+            # Learn Anything, Anytime, Anywhere
+          </p>
+          <p
+            style={{
+              color: "black",
+              fontFamily: "Lucida ,Courier,sans-monospace",
+              fontSize: "32px",
+              textAlign: "justify",
+              paddingLeft: "15px",
+            }}
+          >
+            Best Online <br />
+            Learning platform <br />
+            for your future
+          </p>
+
+          <p
+            style={{
+              color: "grey",
+              fontFamily: "",
+              fontSize: "12px",
+              textAlign: "justify",
+              paddingLeft: "15px",
+            }}
+          >
+            We believe everyone has the capacity to be creative. <br />
+            Turitor is a place where people develop their own potential.
+          </p>
+        </div>
       </div>
-
-      {/* <div class="">
-
-        <button
-          class="
-                bg-blue-500
-                hover:bg-blue-700
-                text-white
-                font-bold
-                py-2
-                px-4
-                rounded
-                focus:outline-none focus:shadow-outline
-              "
-          type="button"
-        >
-          Log In
-        </button>
-      </div> */}
 
       <div>
         <Services />

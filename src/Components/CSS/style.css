@@ -141,9 +141,8 @@
   align-items: center;
   display: flex;
   font-weight: bold;
-  justify-content: center;
+  justify-content: flex-start;
 }
-
 
 @media screen and (min-width: 280px) and (max-width: 765px) {
   .abc {
@@ -199,7 +198,6 @@
     background-repeat: no-repeat;
     background-position: top;
   }
-
 }
 
 @media screen and (min-width: 1720px) and (max-width: 2580px) {
@@ -208,12 +206,5 @@
     height: 100vh;
     background-size: cover;
     background-position: top;
-
   }
-
-}
-
-.homepara {
-  justify-content: first baseline;
-  display: inline-block;
 }
