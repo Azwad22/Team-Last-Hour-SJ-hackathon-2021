@@ -2,10 +2,11 @@ import React from "react";
 // import "./Components/CSS/style.css";
 import { Link } from "react-scroll";
 import { Navbar, Nav } from "react-bootstrap";
-import "./home.css";
+import "../CSS/style.css";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
 import Services from "../Services/Services";
+import Header from "../Header/Header";
 
 const Home = () => {
   return (
@@ -24,7 +25,7 @@ const Home = () => {
             marginRight: "auto",
           }}
         >
-          Eduland
+          Edu<span style={{ color: "purple" }}>Land</span>
         </b>
         <Navbar.Toggle
           style={{ marginRight: "10px" }}
@@ -95,14 +96,35 @@ const Home = () => {
         </Navbar.Collapse>
       </Navbar>
 
-      <div class="abc"></div>
+      <div class="abc">
+
+          
+      </div>
+
+      {/* <div class="">
+        <a href="#">Forgot Password?</a>
+        <button
+          class="
+                bg-blue-500
+                hover:bg-blue-700
+                text-white
+                font-bold
+                py-2
+                px-4
+                rounded
+                focus:outline-none focus:shadow-outline
+              "
+          type="button"
+        >
+          Log In
+        </button>
+      </div> */}
 
       <div>
-          
+        <Services />
         <About />
 
         <Footer />
-
       </div>
     </div>
   );

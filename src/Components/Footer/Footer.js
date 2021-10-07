@@ -1,8 +1,8 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-// import "./style.css";
+import "../CSS/style.css";
 import { Link } from "react-scroll";
-// import logo from "./images/logo.png";
+import logo from "../../images/logo.png";
 import { GoLocation } from "react-icons/go";
 import { FiPhone, FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
@@ -15,7 +15,7 @@ const Footer = () => {
     emailjs
       .sendForm(
         "service_briozpd",
-        "template_v7ut1ge",
+        "template_rsfuwdl",
         e.target,
         "user_ULAyuji8VrqywxuyFC9GG"
       )
@@ -40,7 +40,7 @@ const Footer = () => {
                   style={{ fontWeight: "bold", paddingTop: "20px" }}
                   className="title"
                 >
-                  {/* <img class="img-fluid" alt="logo" src={logo} /> */}
+                  <img class="img-fluid" alt="logo" src={logo} />
                   Eduland
                 </h4>
                 <p class="address">
@@ -83,7 +83,17 @@ const Footer = () => {
                   </li>
                   <li className="list-unstyled">
                     <Link
-                      to="service"
+                      to="firstaid"
+                      smooth={true}
+                      duration={100}
+                      style={{ color: "white", cursor: "pointer" }}
+                    >
+                      Courses
+                    </Link>
+                  </li>
+                  <li className="list-unstyled">
+                    <Link
+                      to="Services"
                       smooth={true}
                       duration={100}
                       style={{ color: "white", cursor: "pointer" }}
@@ -91,16 +101,7 @@ const Footer = () => {
                       Services
                     </Link>
                   </li>
-                  <li className="list-unstyled">
-                    <Link
-                      to="firstaid"
-                      smooth={true}
-                      duration={100}
-                      style={{ color: "white", cursor: "pointer" }}
-                    >
-                      First Aid
-                    </Link>
-                  </li>
+
                   <li className="list-unstyled">
                     <Link
                       to="about"
@@ -180,8 +181,8 @@ const Footer = () => {
           <div className="footer-copyright text-center py-3">
             <MDBContainer fluid style={{ paddingTop: "2px" }}>
               &copy; {new Date().getFullYear()} Copyright{" "}
-              <a href="https://www.ambulanceservice.com">
-                ambulanceservice.com
+              <a href="https://www.eduland.com">
+                eduland.com
               </a>
             </MDBContainer>
           </div>
