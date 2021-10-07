@@ -1,12 +1,11 @@
 import React from "react";
-// import "./Components/CSS/style.css";
 import { Link } from "react-scroll";
 import { Navbar, Nav } from "react-bootstrap";
 import "../CSS/style.css";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
 import Services from "../Services/Services";
-import Header from "../Header/Header";
+import logo from "../../images/logo.png";
 
 const Home = () => {
   return (
@@ -17,7 +16,7 @@ const Home = () => {
         expand="sm"
         className="navigation pt-0 pb-0"
       >
-        {/* <img class="img-fluid" alt="logo" src={logo} /> */}
+        <img class="img-fluid" alt="logo" src={logo} />
         <b
           style={{
             fontFamily: "Arial",
