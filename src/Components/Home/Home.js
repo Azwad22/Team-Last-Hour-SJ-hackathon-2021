@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Button } from "react-bootstrap";
 import "../CSS/style.css";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
@@ -146,6 +146,7 @@ const Home = () => {
             We believe everyone has the capacity to be creative. <br />
             Turitor is a place where people develop their own potential.
           </p>
+          <Button variant="warning">View Our Course</Button>{' '}
         </div>
       </div>
 

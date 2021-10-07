@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Singleinstructor from "../Singleinstructor/Singleinstructor";
 
+import { Button } from "react-bootstrap";
+
 const Instructor = () => {
   const [allinstructor, setAllinstructor] = useState([]);
   useEffect(() => {
@@ -21,6 +23,7 @@ const Instructor = () => {
           ></Singleinstructor>
         ))}
       </div>
+      <Button variant="warning">VIew Our Instructor</Button>{' '}
     </div>
   );
 };
