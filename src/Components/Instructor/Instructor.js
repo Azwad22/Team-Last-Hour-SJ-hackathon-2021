@@ -23,7 +23,6 @@ const Instructor = () => {
           ></Singleinstructor>
         ))}
       </div>
-      <Button variant="warning">VIew Our Instructor</Button>{' '}
     </div>
   );
 };

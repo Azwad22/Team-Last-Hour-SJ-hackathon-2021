@@ -30,7 +30,7 @@ function App() {
             <BuyCourse></BuyCourse>
           </Route>
 
-          <Route path="/instructor">
+          <Route path="/allinstructor">
             <Instructor></Instructor>
           </Route>
         </Switch>

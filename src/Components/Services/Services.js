@@ -21,7 +21,7 @@ const Services = () => {
       <div className=" justify-center row m-3">
         {/* passing props to Allcourse component */}
 
-        {allcourse.slice(0, 3).map((mustafiz) => (
+        {allcourse.slice(0, 10).map((mustafiz) => (
           <Allcourses
             key={mustafiz.index}
             mustafiz={mustafiz}
@@ -30,9 +30,10 @@ const Services = () => {
         ))}
       </div>
 
-      <Link to="/allcourses">
+      {/* <Link to="/allcourses">
         <Button variant="warning">View all Course </Button>
-      </Link>
+      </Link> */}
+      
     </div>
   );
 };
