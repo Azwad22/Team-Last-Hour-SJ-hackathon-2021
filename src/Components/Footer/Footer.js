@@ -1,8 +1,8 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import "./style.css";
+// import "./style.css";
 import { Link } from "react-scroll";
-// import logo from "../images/logo.png";
+// import logo from "./images/logo.png";
 import { GoLocation } from "react-icons/go";
 import { FiPhone, FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
@@ -40,7 +40,7 @@ const Footer = () => {
                   style={{ fontWeight: "bold", paddingTop: "20px" }}
                   className="title"
                 >
-                  <img class="img-fluid" alt="logo" src={logo} />
+                  {/* <img class="img-fluid" alt="logo" src={logo} /> */}
                   Eduland
                 </h4>
                 <p class="address">
