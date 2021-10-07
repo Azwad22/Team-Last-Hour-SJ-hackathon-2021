@@ -14,8 +14,16 @@ const Services = () => {
   const handleAddToCart = (product) => { };
 
   return (
+<<<<<<< HEAD
     <div id="services">
+=======
+    <div id="courses">
+<<<<<<< HEAD
+      <h1 style={{ padding: "40px", fontWeight: "bold" }}>Our Services</h1>
+=======
+>>>>>>> 68acd59de054098334ec77211517fbb28e78b547
       <h1 style={{ padding: "40px", fontWeight: "bold" }}>Our Courses</h1>
+>>>>>>> 710adda742e84379f1a5f1f8bf89769e54594129
 
       <div className=" justify-center row m-3">
         {/* passing props to Allcourse component */}
