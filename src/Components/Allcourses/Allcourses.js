@@ -32,6 +32,7 @@ const Allcourses = (props) => {
               Instructor Name- {course_instructor}
             </span>
           </Card.Title>
+          
           <Button
             variant="primary"
             onClick={() => props.handleAddToCart(props.product)}
@@ -39,6 +40,8 @@ const Allcourses = (props) => {
           >
             Buy Course
           </Button>
+
+
         </Card.Body>
       </Card>
     </div>

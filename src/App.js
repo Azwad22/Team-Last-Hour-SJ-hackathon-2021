@@ -21,13 +21,11 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
-<<<<<<< HEAD
-          <Route path="/courses">
-=======
-          <Route path="/course">
->>>>>>> 68acd59de054098334ec77211517fbb28e78b547
+
+          <Route path="/allcourses">
             <Services></Services>
           </Route>
+
           <Route path="/buycourse">
             <BuyCourse></BuyCourse>
           </Route>
