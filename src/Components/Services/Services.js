@@ -13,8 +13,9 @@ const Services = () => {
     }, [])
 
 
-    const handleAddToCart = (product) => {
-
+    const handleAddToCart = (e) => {
+        const buycourse = e.target.value;
+        console.log(buycourse);
 
     }
 

@@ -8,6 +8,7 @@ import './App.css';
 import About from './Components/About/About';
 import BuyCourse from './Components/BuyCourse/BuyCourse';
 import Home from './Components/Home/Home';
+import Instructor from './Components/Instructor/Instructor';
 import Services from './Components/Services/Services';
 
 function App() {
@@ -32,6 +33,10 @@ function App() {
 
           <Route path="/buycourse">
             <BuyCourse></BuyCourse>
+          </Route>
+
+          <Route path="/instructor">
+            <Instructor></Instructor>
           </Route>
 
 
