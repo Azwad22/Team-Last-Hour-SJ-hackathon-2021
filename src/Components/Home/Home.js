@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 // import "./Components/CSS/style.css";
 import { Link } from "react-scroll";
@@ -128,6 +129,16 @@ const Home = () => {
       </div>
     </div>
   );
+=======
+import React from 'react';
+
+const Home = () => {
+    return (
+        <div>
+            This is Home
+        </div>
+    );
+>>>>>>> a92b76a8036cfeec6cf1fb8bcf3f8a99d96a2e51
 };
 
 export default Home;
