@@ -19,7 +19,8 @@ const Allcourses = (props) => {
                     </Card.Text>
                     <Card.Title><span className="text-danger font-weight-bold"> Price $-  {price}</span></Card.Title>
                     <Card.Title><span className="text-danger font-weight-bold"> Instructor Name- {course_instructor}</span></Card.Title>
-                    <Button variant="primary">Buy Course</Button>
+                    <Button variant="primary" onClick={() => props.handleAddToCart(props.product)}
+                        className="btn-regular">Buy Course</Button>
                 </Card.Body>
             </Card>
 
