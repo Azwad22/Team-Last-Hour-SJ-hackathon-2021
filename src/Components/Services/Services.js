@@ -14,7 +14,7 @@ const Services = () => {
   const handleAddToCart = (product) => { };
 
   return (
-    <div id="courses">
+    <div id="services">
       <h1 style={{ padding: "40px", fontWeight: "bold" }}>Our Courses</h1>
 
       <div className=" justify-center row m-3">
