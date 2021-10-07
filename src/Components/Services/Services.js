@@ -10,7 +10,7 @@ const Services = () => {
       .then((data) => setAllcourse(data));
   }, []);
 
-  const handleAddToCart = (product) => {};
+  const handleAddToCart = (product) => { };
 
   return (
     <div id="services">
@@ -19,7 +19,7 @@ const Services = () => {
       <div className=" justify-center row m-3">
         {/* passing props to Allcourse component */}
 
-        {allcourse.map((mustafiz) => (
+        {allcourse.slice(0, 4).map((mustafiz) => (
           <Allcourses
             key={mustafiz.index}
             mustafiz={mustafiz}
@@ -27,6 +27,7 @@ const Services = () => {
           ></Allcourses>
         ))}
       </div>
+      <button className="bg-warning" >View All Services</button>
     </div>
   );
 };
