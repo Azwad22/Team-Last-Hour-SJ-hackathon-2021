@@ -47,7 +47,7 @@ const Home = () => {
             </Nav.Link>
             <Nav.Link>
               <Link
-                to="courses"
+                to="services"
                 smooth={true}
                 duration={100}
                 className="navlink"
@@ -67,18 +67,6 @@ const Home = () => {
               >
                 {" "}
                 Instructors{" "}
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link
-                to="services"
-                smooth={true}
-                duration={100}
-                className="navlink"
-                style={{ cursor: "pointer" }}
-              >
-                {" "}
-                Services{" "}
               </Link>
             </Nav.Link>
             <Nav.Link>
@@ -152,9 +140,7 @@ const Home = () => {
       <div>
         <Services />
         <Instructor />
-
         <About />
-
         <Footer />
       </div>
     </div>
