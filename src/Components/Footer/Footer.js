@@ -82,7 +82,7 @@ const Footer = () => {
                   </li>
                   <li className="list-unstyled">
                     <Link
-                      to="firstaid"
+                      to="services"
                       smooth={true}
                       duration={100}
                       style={{ color: "white", cursor: "pointer" }}
@@ -92,12 +92,12 @@ const Footer = () => {
                   </li>
                   <li className="list-unstyled">
                     <Link
-                      to="Services"
+                      to="instructor"
                       smooth={true}
                       duration={100}
                       style={{ color: "white", cursor: "pointer" }}
                     >
-                      Services
+                      Instructors
                     </Link>
                   </li>
 
